@@ -1,5 +1,5 @@
 import React from "react";
-import Todo from "./components/Todo/Todo";
+import Todo from "./ToDo.js";
 
 export default function List(props) {
   let list = props.tasks.map((element, index) => {
